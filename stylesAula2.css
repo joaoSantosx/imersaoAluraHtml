@@ -12,17 +12,10 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
-}
-
-.img-cabeçalho{
-    text-align: center;
-    object-fit: contain;
-}
-.img-cabeçalho img{
-    
-    width: 200px;
-    /*height: auto;*/
-    margin: 0;
+    background-image: url('\imagem fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /*Estiliza a imagem principal */
